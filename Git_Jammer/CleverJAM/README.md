@@ -47,13 +47,12 @@ $ cat jam.json
 ```
 
 
-Start cleverjamming
+Start jamming
 ```sh
 $ python3 clever.py --file jam.json -d jump_time_in_sec
 ```
 ❗️For use clever.py don't close jam.py❗️
 
-![Jamming session](https://raw.githubusercontent.com/jhonnybonny/just-pic-/main/sceererreen.jpg)
-
 Please note that the jam hopping between each frequencies can be set with a arguments '-d' (see -h).
 
+![Jamming](relative/path/to/image.png)
