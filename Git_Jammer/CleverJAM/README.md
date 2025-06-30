@@ -55,5 +55,5 @@ $ python3 clever.py --file jam.json -d jump_time_in_sec
 
 Please note that the jam hopping between each frequencies can be set with a arguments '-d' (see -h).
 
-![Jamming](Git_Jammer/CleverJAM/sources/jam.png)
-![Jamming](Git_Jammer/CleverJAM/sources/jamd.jpg)
+![Jamming]((https://github.com/PavloMcr/GNU-radio-/blob/main/Git_Jammer/CleverJAM/sources/jam.png))
+![Jamming]([Git_Jammer/CleverJAM/sources/jamd.jpg](https://github.com/PavloMcr/GNU-radio-/blob/main/Git_Jammer/CleverJAM/sources/jamd.jpg))
