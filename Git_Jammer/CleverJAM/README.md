@@ -1,4 +1,4 @@
-# CleverJAM
+# Hopping JAMMER
 Smart jammer based on SDR with frequency hopping
 
 ## ⚠️ WARNING ⚠️
