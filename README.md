@@ -10,11 +10,10 @@ Jamming is illegal !
 
 - SDR devices that is enabled to transmit signal (HackRF, USRP, LimeSDR, BladeRF, etc.)
 - GNURadio 3.8 / 3.10 (maint-3.10 branch)
-- A little bit of time 😉
 
 ### Manual jamming 
 
-If you have a HackRF or any SDR device with osmocom drivers, you can run the code as follows:
+If you have an SDR device with uhd drivers, you can run the code as follows:
 
 ```sh
 $ python3 jam.py
@@ -26,7 +25,7 @@ also you can edit the GNURadio block schema ,  ``sources/jam.grc``:
 $ gnuradio-companion sources/jam.grc
 ```
 
-Then you can configure the central frequency with the QT GUI to target a frequency. But this tool has also a feature to do it automatically.
+The central frequency can be configured with the QT GUI to target a frequency. But this tool has also a feature to do it automatically.
 
 ### Automatic cleverjamming
 
@@ -51,9 +50,8 @@ Start jamming
 ```sh
 $ python3 clever.py --file jam.json -d jump_time_in_sec
 ```
-❗️For use clever.py don't close jam.py❗️
 
-Please note that the jam hopping between each frequencies can be set with a arguments '-d' (see -h).
+jam hopping between each frequencies can be set with an arguments '-d' (see -h).
 
 ![Jamming]((https://github.com/PavloMcr/GNU-radio-/blob/main/Git_Jammer/CleverJAM/sources/jam.png))
 ![Jamming]([Git_Jammer/CleverJAM/sources/jamd.jpg](https://github.com/PavloMcr/GNU-radio-/blob/main/Git_Jammer/CleverJAM/sources/jamd.jpg))
